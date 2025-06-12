@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 from typing import List,Dict,Any
-from vehicle_detection import vehicle
 
 class HelmetDetector:
     def __init__(self,model_path : str = "helmet.pt",conf_threshold : float = 0.5):
