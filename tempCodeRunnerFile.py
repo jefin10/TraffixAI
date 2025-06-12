@@ -1,0 +1,1 @@
+cap = cv2.VideoCapture("ved.mp4")
